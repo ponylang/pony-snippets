@@ -1,7 +1,7 @@
 ;;; pony-snippets.el --- Yasnippets for Pony
 
 ;; Author: Sean T Allen <sean@monkeysnatchbanana.com>
-;; URL: https://github.com/seantallen/pony-snippets
+;; URL: https://github.com/haskell/haskell-snippets
 ;; Keywords: snippets, pony
 ;; Version: 0.0.1
 ;; Package-Requires: ((yasnippet "0.8.0"))
