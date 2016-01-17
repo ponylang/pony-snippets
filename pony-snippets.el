@@ -1,6 +1,7 @@
 ;;; pony-snippets.el --- Yasnippets for Pony
 
 ;; Copyright (C) 2013-2015 Sean T. Allen
+;; Package-Requires: ((yasnippet "0.8.0"))
 
 ;;; Commentary:
 ;;
