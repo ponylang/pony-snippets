@@ -2,6 +2,8 @@
 
 ;; Copyright (C) 2013-2015 Sean T. Allen
 ;; Package-Requires: ((yasnippet "0.8.0"))
+;; URL: https://github.com/seantallen/pony-snippets
+;; Version: 0.0.1
 
 ;;; Commentary:
 ;;
