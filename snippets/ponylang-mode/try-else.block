@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# key: trye
+# name: block try-else
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+try
+  `yas-selected-text`${1:try_block}
+else
+  ${2:else_block}
+end
+$0
