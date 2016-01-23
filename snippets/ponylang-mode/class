@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: class
+# name: class
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+class ${1:name}$0
