@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# key: for
+# name: block for
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+for ${1:variable} in ${2:iterable} do
+  ${3:for_block}
+end$0
