@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: struct
+# name: struct
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+struct ${1:name}$0
