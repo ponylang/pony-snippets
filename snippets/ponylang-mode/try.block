@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# key: try
+# name: block try
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+try
+  `yas-selected-text`${1:try_block}
+end$0
