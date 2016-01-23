@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: actor
+# name: actor
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+actor ${1:name}$0
