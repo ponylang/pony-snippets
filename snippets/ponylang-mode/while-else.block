@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# key: whilee
+# name: block while-else
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+while ${1:condition} do
+  ${2:while_block}
+else
+  ${else_block}
+end$0
