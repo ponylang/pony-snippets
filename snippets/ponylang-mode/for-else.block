@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# key: fore
+# name: block for-else
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+for ${1:variable} in ${2:iterable} do
+  ${3:for_block}
+else
+  ${4:else_block}
+end$0
