@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: interface
+# name: interface
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+interface ${1:name}$0
