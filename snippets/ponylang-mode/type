@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: type
+# name: type
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+type ${1:name} is (${2:full})$0

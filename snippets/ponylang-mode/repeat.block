@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# key: repeat
+# name: block repeat
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+repeat
+  ${1:repeat_block}
+until ${2:until_block} end$0
