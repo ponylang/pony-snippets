@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# key: ife
+# name: block if-else
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+if ${1:condition} then
+  ${2:if_block}
+else
+  ${3:else_block}
+end$0
