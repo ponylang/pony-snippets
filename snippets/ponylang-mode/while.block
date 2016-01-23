@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# key: while
+# name: block while
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+while ${1:condition} do
+  ${2:while_block}
+end$0
