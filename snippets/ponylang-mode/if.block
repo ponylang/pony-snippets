@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# key: if
+# name: block if
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+if ${1:condition} then
+  ${2:if_block}
+end$0
