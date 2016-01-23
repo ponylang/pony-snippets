@@ -3,5 +3,4 @@
 # name: use
 # contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
 # --
-use "${1:module}"
-$0
+use "${1:module}"$0
