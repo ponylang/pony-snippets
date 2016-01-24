@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# key: matche
+# name: block match-else
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+match ${1:variable}
+  | ${2:match_block}
+else
+  ${3:else_block}
+end$0

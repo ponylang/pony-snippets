@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# key: match
+# name: block match
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+match ${1:variable}
+  | ${2:match_block}
+end$0
