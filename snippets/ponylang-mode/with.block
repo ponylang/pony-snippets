@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# key: with
+# name: block with
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+with ${1:variable} do
+  ${2:with_block}
+end$0
