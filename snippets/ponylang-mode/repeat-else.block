@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# key: repeate
+# name: block repeat-else
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+repeat
+  ${1:repeat_block}
+until
+  ${2:until_block}
+else
+  ${3:else_block}
+end$0
