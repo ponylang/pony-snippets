@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# key: newc
+# name: new-create
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+new ${1:opt}create(${2:params}) =>
+  $0
