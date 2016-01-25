@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# key: be
+# name: be
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+be ${1:name}(${2:params}) =>
+  $0
