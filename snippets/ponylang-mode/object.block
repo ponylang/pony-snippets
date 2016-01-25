@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# key: object
+# name: block object
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+object
+  ${1:object_block}
+end$0
