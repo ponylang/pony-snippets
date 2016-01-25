@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: recover
+# name: block recover
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+recover ${1:recover_block} end$0
