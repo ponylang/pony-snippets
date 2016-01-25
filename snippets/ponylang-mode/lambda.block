@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: lambda
+# name: block lambda
+# contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
+# --
+lambda(${1:params})${2:return} => ${3:lambda_block} end$0
