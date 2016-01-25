@@ -62,8 +62,10 @@
 
 ;;; Code:
 
-(setq pony-snippets-dir
-      (file-name-directory load-file-name))
+(require 'yasnippet)
+
+(defvar pony-snippets-dir
+  (file-name-directory load-file-name))
 
 ;;;###autoload
 (defun pony-snippets-initialize ()
@@ -75,7 +77,6 @@
 (eval-after-load 'yasnippet
   '(pony-snippets-initialize))
 
-(require 'yasnippet)
 (provide 'pony-snippets)
 
 ;;; pony-snippets.el ends here
