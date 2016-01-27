@@ -3,5 +3,5 @@
 # name: fun
 # contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
 # --
-fun ${1:name}(${2:params})${3:return} =>
+fun ${1:name}(${2:params})$3 =>
   $0
