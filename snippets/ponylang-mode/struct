@@ -3,4 +3,14 @@
 # name: struct
 # contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
 # --
-struct ${1:name}$0
+struct ${1:name}
+  
+  new create() =>
+    //create_block
+  
+  fun _final() =>
+    //final_block
+  
+  fun ${2:name}(${3:params})$4 =>
+    ${5:env.out.print("hello,world")}
+    $0

@@ -3,4 +3,15 @@
 # name: class
 # contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
 # --
-class ${1:name}$0
+class ${1:name}
+  let name: String
+  
+  new create(name': String) =>
+    name = name'
+  
+  fun _final() =>
+    //final_block
+  
+  fun ${2:name}(${3:params})$4 =>
+    ${5:env.out.print("hello,world")}
+    $0

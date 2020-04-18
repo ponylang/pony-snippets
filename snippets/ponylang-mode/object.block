@@ -4,5 +4,7 @@
 # contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
 # --
 object
-  ${1:object_block}
-end$0
+  fun ${1:name}(${2:params}) $3 =>
+    ${4:env.out.print("hello,world")}
+    $0
+end

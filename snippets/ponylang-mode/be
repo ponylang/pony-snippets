@@ -3,5 +3,5 @@
 # name: be
 # contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
 # --
-be ${1:name}(${2:params}) =>
+be ${1:name}(${2:params}: ${3: type}) =>
   $0

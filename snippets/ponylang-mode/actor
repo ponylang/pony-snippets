@@ -3,4 +3,15 @@
 # name: actor
 # contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
 # --
-actor ${1:name}$0
+actor ${1:name}
+  let name: String
+  
+  new create(name': String) =>
+    name = name'
+
+  fun _final() =>
+    //final_block
+
+  be ${2:name}(${3:params}) =>
+    ${4:env.out.print("hello,world")}
+    $0

@@ -3,5 +3,5 @@
 # name: new-create
 # contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
 # --
-new $1create(${2:params}) =>
+new ${1:create}(${2:params}) =>
   $0

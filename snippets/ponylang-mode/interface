@@ -3,4 +3,6 @@
 # name: interface
 # contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
 # --
-interface ${1:name}$0
+interface ${1:name}
+  fun ${2:name}(${3:params}) $4
+  $0

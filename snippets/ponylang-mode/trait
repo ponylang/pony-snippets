@@ -3,4 +3,7 @@
 # name: trait
 # contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
 # --
-trait ${1:name}$0
+trait ${1:name}
+  fun ${2:name}(${3:params})$4 =>
+    ${5:env.out.print("hello,world")}
+    $0
