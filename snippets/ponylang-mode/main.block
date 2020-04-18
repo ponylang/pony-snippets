@@ -3,7 +3,7 @@
 # name: block main
 # contributor: Sean T. Allen <sean@monkeysnatchbanana.com>
 # --
-actor Main =>
+actor Main
   let _env: Env
 
   new create(env: Env) =>
